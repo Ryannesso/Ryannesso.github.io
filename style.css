@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.logo {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    left: 200px;
+    top: 50px;
+    width: 265px;
+    height: 50px;
+}
+
+.logo__2 {
+    position: absolute;
+    left: 700px;
+    top: 100px;
+}
+
+.vulcano {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: rgb(75, 66, 66);
+    top: 700px;
+    left: 500px;
+}
+
+.text-vulcano {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: rgba(75, 66, 66, 0.712);
+    width: 847px;
+    height: 100px;
+    top: 800px;
+    left: 500px;
+    font-size: x-large;
+}
+
+.vulcano-img {
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+}
+
+.kvitu {
+    position: absolute;
+    
+}
+
+.limon {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: rgb(75, 66, 66);
+    top: 1500px;
+    left: 500px;   
+}
+
+.limon-text {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: rgba(75, 66, 66, 0.712);
+    width: 847px;
+    height: 100px;
+    top: 1600px;
+    left: 500px;
+    font-size: x-large;
+}
+
+.limon-img {
+    position: absolute;
+    top: 1800px;
+    left: 500px;
+}
+
+.button-fisik {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    color: black;
+    top: 1800px;
+    left: 1000px;
+}
+
+.button-fisik:hover {
+    background-color: yellow;
+    color: white;
+}
+
+.gradient-button {
+    position: absolute;
+    top: 2200px;
+    left: 800px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  .gradient-button:hover {
+    background-position: right center;
+  }
+
+  hr {
+      margin-top: 2300px;
+  }
+
+  .spirt {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    color: rgb(39, 36, 36);
+    top: 2300px;
+    left: 300px;
+  }
+
+  .spirt-text {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: rgba(75, 66, 66, 0.712);
+    width: 700px;
+    top: 2400px;
+    left: 100px;
+    text-align: center;
+  }
+
+  .fisiks {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    color: rgb(39, 36, 36);
+    top: 2300px;
+    left: 1200px;
+  }
+
+  .fisiks-text {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: rgba(75, 66, 66, 0.712);
+    text-align: center;
+    width: 700px;
+    top: 2400px;
+    left: 1050px;
+  }
+
+  a.button7 {
+    position: absolute;
+    top: 2650px;
+    left: 350px;
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+
+  } 
+  a.button7:hover { background: rgb(53, 167, 110); }
+  a.button7:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
+
+  a.button8 {position: absolute;
+    top: 2650px;
+    left: 1400px;
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+  a.button8:hover { background: rgb(53, 167, 110); }
+  a.button8:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
